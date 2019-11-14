@@ -1,0 +1,19 @@
+div.wrapper {
+  background: #red;
+}
+
+div.box1 {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: turquoise;
+    transition-duration: 300ms;
+    transition-property: width, background-color;
+}
+
+div.box1:hover{
+    width: 500px;
+    background-color: mistyrose;
+    border-radius: 50%;
+}
